@@ -4,6 +4,7 @@ import "./css/main.css";
 import Sidebar from "./components/Sidebar.jsx";
 import School from "./components/School.jsx";
 import Work from "./components/Work.jsx";
+import Exporter from "./components/Exporter.jsx";
 
 
 createRoot(document.getElementById("root")).render(
@@ -15,5 +16,6 @@ createRoot(document.getElementById("root")).render(
         <Work />
       </div>
     </div>
+    <Exporter />
   </StrictMode>,
 )
