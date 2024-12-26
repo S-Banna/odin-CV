@@ -1,0 +1,36 @@
+.mainSchool {
+    height: 40%;
+}
+
+.buttonCont {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.schoolName {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.schoolName>input {
+    width: 100%;
+}
+
+.schoolMaker {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    gap: 3px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.schoolDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3px;
+}

@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { Avatar } from "./Avatar.jsx";
+import Avatar from "./Avatar.jsx";
 import InputHandler from "./InputHandler.jsx";
 import "../css/Sidebar.css";
 import image from "../images/default-avatar-icon-of-social-media-user-vector.jpg";
 import emailSVG from "../images/email-1-svgrepo-com.svg";
 import phoneSVG from "../images/reshot-icon-phone-XVG9DMYSLJ.svg";
 
-function Sidebar() {
+export default function Sidebar() {
 	const [professionState, setProfessionState] = useState(false);
 	const [nameState, setNameState] = useState(false);
 	const [numberState, setNumberState] = useState(false);
@@ -52,5 +52,3 @@ function Sidebar() {
 		</div>
 	);
 }
-
-export { Sidebar };
