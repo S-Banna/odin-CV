@@ -4,3 +4,46 @@
     border: 1px solid black;
     border-left: none;
 }
+
+.buttonCont {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.companyName {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.companyName>input {
+    width: 100%;
+}
+
+.role {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.role>input {
+    width: 100%;
+}
+
+.companyMaker {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    gap: 3px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.workDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3px;
+}
